@@ -1,14 +1,15 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - prchigoyal01
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - nazreenshah/IS-FedVAE
+  - prchigoyal01/RL_PROJECT_HIGHWAY
+  - prchigoyal01/Write-Your-Own-System-Call
+  - prchigoyal01/Basic-Linux-Shell-in-C
+  - prchigoyal01/Modifying-CFS-Scheduler
+  - prchigoyal01/Mafia-Game
+  - prchigoyal01/Multi-Threading
+  - prchigoyal01/Aqua-Assembler
+  - prchigoyal01/TRSNA
