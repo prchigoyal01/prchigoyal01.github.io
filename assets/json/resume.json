@@ -1,200 +1,155 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Prachi Goyal",
+    "label": "Software Engineer",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "prachi.goyal@gmail.com",
+    "phone": "(000) 000-0000",
+    "url": "https://github.com/prchigoyal01",
+    "summary": "A Software Engineer with a specialization in API development, deep learning, and systems optimization. Proven experience in building large-scale systems and research in federated learning.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "Bangalore, India",
+      "postalCode": "560001",
+      "city": "Bangalore",
+      "countryCode": "IN",
+      "region": "Karnataka"
     },
-    "profiles": [
-      {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
-      }
-    ]
+    "profiles": [{
+      "network": "GitHub",
+      "username": "prchigoyal01",
+      "url": "https://github.com/prchigoyal01"
+    }]
   },
-  "work": [
-    {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
-    }
-  ],
-  "education": [
-    {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
-    }
-  ],
-  "awards": [
-    {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
-    },
-    {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
-    }
-  ],
-  "publications": [
-    {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
-    }
-  ],
-  "skills": [
-    {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "German",
-      "fluency": "Native speaker",
-      "icon": ""
-    },
-    {
-      "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
-    }
-  ],
-  "interests": [
-    {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    },
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
-  ],
-  "projects": [
-    {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
-    }
-  ]
+  "work": [{
+    "name": "Microsoft",
+    "position": "Software Engineer",
+    "url": "https://microsoft.com",
+    "startDate": "2023-06-01",
+    "endDate": "Present",
+    "summary": "Building impactful APIs for Microsoft Graph Teams, specializing in meetings, teams, and channels. Developed a CI/CD pipeline for a Business Intelligence data pipeline.",
+    "highlights": [
+      "Specialization in API development and DevOps",
+      "Built APIs for Microsoft Graph Teams",
+      "Developed a CI/CD pipeline for Business Intelligence",
+      "On-call for large-scale systems, reliability, and optimization"
+    ]
+  }, {
+    "name": "Microsoft",
+    "position": "Software Engineer Intern",
+    "url": "https://microsoft.com",
+    "startDate": "2022-06-01",
+    "endDate": "2022-07-31",
+    "summary": "Worked on ECS flighting system for Audio, Signal and MediaTA under OneDrive SharePoint.",
+    "highlights": [
+      "Implemented ECS flighting system for Signals",
+      "Developed private preview tasks for specific tenants"
+    ]
+  }, {
+    "name": "Atletik Games",
+    "position": "Deep Learning Android Game Developer",
+    "url": "https://atletikgames.com",
+    "startDate": "2021-06-01",
+    "endDate": "2021-07-31",
+    "summary": "Developed Android games based on deep learning for Physical Education during Covid-19 lockdown.",
+    "highlights": [
+      "Integrated state-of-the-art pose and object detection models",
+      "Deployed games to 3 schools with 500+ students"
+    ]
+  }],
+  "volunteer": [],
+  "education": [{
+    "institution": "Indraprastha Institute of Information and Technology Delhi (IIITD)",
+    "url": "https://iiitd.ac.in",
+    "area": "Computer Science and Applied Mathematics",
+    "studyType": "Bachelor",
+    "startDate": "2019-08-01",
+    "endDate": "2023-05-01",
+    "score": "8.82",
+    "courses": [
+      "Algorithm Design and Analysis",
+      "Deep Learning",
+      "Artificial Intelligence",
+      "Operating Systems"
+    ]
+  }],
+  "awards": [{
+    "title": "Women Techmakers Engineering Fellow Scholarship",
+    "date": "2020-03-01",
+    "awarder": "Google, Talentsprint",
+    "summary": "Selected among 120 scholars from over 15,000 applicants across India."
+  }],
+  "certificates": [],
+  "publications": [{
+    "name": "Importance Sampling Based Federated Unsupervised Representation Learning",
+    "publisher": "IEEE",
+    "releaseDate": "2024-03-01",
+    "url": "https://ieeexplore.ieee.org/document/10447119",
+    "summary": "Published work on a novel FL algorithm for unsupervised and personalized representation learning."
+  }],
+  "skills": [{
+    "name": "Web Development",
+    "level": "Master",
+    "keywords": [
+      "API Development",
+      "DevOps",
+      "CI/CD",
+      "Java",
+      "Python"
+    ]
+  }],
+  "languages": [{
+    "language": "English",
+    "fluency": "Native speaker"
+  }],
+  "interests": [{
+    "name": "Wildlife",
+    "keywords": [
+      "Ferrets",
+      "Unicorns"
+    ]
+  }],
+  "references": [{
+    "name": "Jane Doe",
+    "reference": "Reference available upon request."
+  }],
+  "projects": [{
+    "name": "Intersection Problem in Highway-Env (Multi-Agent Deep Reinforcement Learning)",
+    "startDate": "2021-01-01",
+    "endDate": "2021-06-01",
+    "description": "Designed and implemented multi-agent deep reinforcement learning models for safe intersection handling in complex highway environments.",
+    "highlights": [
+      "Trained multiple agents using Double Q Network",
+      "Enhanced performance metrics through reward tuning"
+    ],
+    "url": "https://github.com/prchigoyal01/RL_PROJECT_HIGHWAY"
+  }, {
+    "name": "Image-to-Image Translation (Deep Learning)",
+    "startDate": "2022-01-01",
+    "endDate": "2022-06-01",
+    "description": "Implemented models for Reverse Semantic Segmentation and Super Resolution tasks using state-of-the-art architectures.",
+    "highlights": [
+      "Applied Pix2Pix, pSp encoder, and SRGAN models",
+      "Tuned models for high-quality outputs with fast convergence"
+    ],
+    "url": "https://drive.google.com/file/d/1NQdzGhq25NozySKw6Of0OSbfLTdgZKaq/view"
+  }, {
+    "name": "Color Switch Game (JavaFX Game Development)",
+    "startDate": "2021-01-01",
+    "endDate": "2021-05-01",
+    "description": "Developed an interactive color-switching game using JavaFX.",
+    "highlights": [
+      "Applied OOP principles for efficient gameplay mechanics",
+      "Implemented detailed class structures and UI diagrams"
+    ],
+    "url": "https://github.com/prchigoyal01/Color-Switch-Game"
+  }, {
+    "name": "Linux Shell (Systems Programming in C)",
+    "startDate": "2020-08-01",
+    "endDate": "2020-12-01",
+    "description": "Designed a custom shell to execute Linux commands using system calls and standard C libraries.",
+    "highlights": [
+      "Implemented command parsing for multiple commands and arguments"
+    ],
+    "url": "https://github.com/prchigoyal01/Basic-Linux-Shell-in-C"
+  }]
 }
