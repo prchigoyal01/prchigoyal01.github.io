@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Intersection Problem in Highway-Env (Multi-Agent Deep Reinforcement Github Learning)
+title: Federated Learning with unannotated data
 description: Nazreen Shah*; Prachi Goyal*; Ranjitha Prasad
 img: assets/img/12.jpg
 importance: 1
