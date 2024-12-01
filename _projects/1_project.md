@@ -4,7 +4,7 @@ title: Federated Learning with unannotated data
 description: Nazreen Shah*; Prachi Goyal*; Ranjitha Prasad
 img: assets/img/12.jpg
 importance: 1
-category: work
+category: Research Projects
 related_publications: true
 ---
 
