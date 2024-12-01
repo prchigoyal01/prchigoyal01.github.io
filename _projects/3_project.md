@@ -3,8 +3,8 @@ layout: page
 title: Image-to-Image Translation
 description: Deep Learning
 img: assets/img/7.jpg
-importance: 3
-category: work
+importance: 1
+category: Development/Industrial Projects
 ---
 
 <div style="font-family: Arial, sans-serif; line-height: 1.6;">
