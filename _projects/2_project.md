@@ -4,7 +4,7 @@ title: Multi-Agent Deep Reinforcement Github Learning)
 description: Intersection Problem in Highway-Env
 img: assets/img/3.jpg
 importance: 2
-category: work
+category: Research Projects
 giscus_comments: true
 ---
 
