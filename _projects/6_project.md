@@ -4,7 +4,7 @@ title: Handwriting Recognition
 description: Deep Learning
 img:
 importance: 4
-category: fun
+category: Development/Industrial Projects
 ---
 
 <div style="font-family: Arial, sans-serif; line-height: 1.6;">
