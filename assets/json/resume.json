@@ -20,7 +20,25 @@
       "url": "https://github.com/prchigoyal01"
     }]
   },
-  "work": [{
+  "publications": [
+    {
+      "date": "March 2024",
+      "title": "Importance Sampling Based Federated Unsupervised Representation Learning",
+      "authors": [
+        "Nazreen Shah*",
+        "Prachi Goyal*",
+        "Dr. Ranjitha Prasad"
+      ],
+      "notes": "* Equal contribution.",
+      "links": [
+        "https://ieeexplore.ieee.org/document/10447119",
+        "https://neurips.cc/virtual/2024/108960"
+      ]
+    }
+  ],
+  
+  
+  "work experience": [{
     "name": "Microsoft",
     "position": "Software Engineer",
     "url": "https://microsoft.com",
@@ -56,7 +74,72 @@
       "Deployed games to 3 schools with 500+ students"
     ]
   }],
-  "volunteer": [],
+  "research_experience": [
+    {
+      "time_period": "Sept 2022 – May 2023",
+      "title": "Federated Learning with unannotated data",
+      "type": "B.Tech. Thesis",
+      "guide": {
+        "name": "Dr. Ranjitha Prasad",
+        "link": "https://sites.google.com/site/ranjithap/home?authuser=0"
+      },
+      "highlights": [
+        "Developed a novel FL algorithm for unsupervised and personalized representation learning, later published in ICASSP 2024.",
+        "Used Variational AutoEncoders to formulate clients' unlabelled and non-IID data to gaussian distributions.",
+        "Aggregated distributions using mean-field formulation. Used importance sampling based weights for calculating reconstruction loss.",
+        "Is-FedVAE outperformed SoTA FL baselines and demonstrated faster convergence and higher accuracy."
+      ]
+    },
+    {
+      "time_period": "Jan 2022 - May 2022",
+      "title": "Vehicular Planning using Deep Reinforcement Learning",
+      "type": "Independent Project",
+      "guide": [
+        {
+          "name": "Dr. Sanjit Kaul",
+          "link": "https://sites.google.com/view/sanjitkkaul/"
+        },
+        {
+          "name": "Dr. Saket Anand",
+          "link": "http://faculty.iiitd.ac.in/~anands/"
+        }
+      ],
+      "highlights": [
+        "Worked on optimizing Autonomous Agent Vehicle communication for local and extended view under bandwidth constraints using Deep Reinforcement Learning methods.",
+        "Surveyed literature and designed an architecture for multi-modal learning giving multiple outputs. Curated a reward system for efficient learning."
+      ]
+    },
+    {
+      "time_period": "Aug 2022 – Dec 2022",
+      "title": "Plug-and-Play Platform for COVID-19 Resource Allocation",
+      "type": "Independent Project",
+      "guide": {
+        "name": "Dr. Tavpritesh Sethi",
+        "link": "https://www.iiitd.ac.in/tavpritesh"
+      },
+      "highlights": [
+        "Developed a reinforcement learning (RL) based platform for efficient resource allocation during the COVID-19 pandemic.",
+        "Designed a generalized platform that could optimize the allocation of any resource by taking input datasets and considering relevant columns.",
+        "Applied actor-critic methods to optimize allocation, ensuring a scalable, plug-and-play system for varied use cases."
+      ]
+    },
+    {
+      "time_period": "Jan 2021 – May 2021",
+      "title": "SeekSuspect",
+      "type": "Research Project",
+      "link": "https://dl.acm.org/doi/abs/10.1145/3444685.3446252",
+      "organization": "MIDAS, IIIT Delhi",
+      "guide": {
+        "name": "Rajiv Ratn Shah",
+        "link": "https://midas.iiitd.edu.in/team/rajiv-ratn-shah.html"
+      },
+      "highlights": [
+        "SeekSuspect is an interactive facial image retrieval model that uses visual memory as input to retrieve faces from a large-scale database.",
+        "Fine-tuned pre-trained ResNet and VGG-16 models, improving accuracy from 82% to 86% by enhancing efficiency and embedding extraction.",
+        "Evaluated and compared various clustering algorithms for embedding extraction, improving model performance and retrieval accuracy."
+      ]
+    }
+  ],
   "education": [{
     "institution": "Indraprastha Institute of Information and Technology Delhi (IIITD)",
     "url": "https://iiitd.ac.in",
@@ -66,24 +149,47 @@
     "endDate": "2023-05-01",
     "score": "8.82",
     "courses": [
-      "Algorithm Design and Analysis",
       "Deep Learning",
       "Artificial Intelligence",
-      "Operating Systems"
+      "Reinforcement Learning",
+      "Data Mining",
+      "Algorithm Design and Analysis"
     ]
   }],
-  "awards": [{
-    "title": "Women Techmakers Engineering Fellow Scholarship",
-    "date": "2020-03-01",
-    "awarder": "Google, Talentsprint",
-    "summary": "Selected among 120 scholars from over 15,000 applicants across India."
-  }],
-  "certificates": [],
+  "achievements and responsible positions": [
+      {
+        "title": "Women Techmakers Engineering Fellow Scholarship",
+        "organization": "Google, Talentsprint",
+        "link": "https://we.talentsprint.com/#successStories",
+        "period": "March 2020 - April 2022",
+        "highlights": [
+          "Selected among 120 scholars from over 15,000 applicants across India to receive a USD 2,400 scholarship.",
+          "Participated in coding bootcamps focusing on coding practices, design thinking, and hands-on projects as a freshman."
+        ]
+      },
+      {
+        "title": "AI/ML Head",
+        "organization": "Google Developer Student Circle, IIIT Delhi",
+        "period": "Oct 2021 - Sept 2022",
+        "highlights": [
+          "Organized workshops on machine learning for peers in IIIT Delhi.",
+          "Created and actively engaged in a telegram forum to foster learning and discussion in machine learning."
+        ]
+      },
+      {
+        "title": "Contributor at Leadership Connection Pillar",
+        "organization": "Technical Women at Microsoft",
+        "period": "Aug 2024 - Current",
+        "highlights": [
+          "Responsible for conducting and hosting AMAs with senior leaders at Microsoft for the TWaM community."
+        ]
+      }
+    ],
   "publications": [{
     "name": "Importance Sampling Based Federated Unsupervised Representation Learning",
     "publisher": "IEEE",
     "releaseDate": "2024-03-01",
-    "url": "https://ieeexplore.ieee.org/document/10447119",
+    "url": ["https://ieeexplore.ieee.org/document/10447119","https://neurips.cc/virtual/2024/108960"],
     "summary": "Published work on a novel FL algorithm for unsupervised and personalized representation learning."
   }],
   "skills": [{
@@ -97,59 +203,61 @@
       "Python"
     ]
   }],
-  "languages": [{
-    "language": "English",
-    "fluency": "Native speaker"
-  }],
-  "interests": [{
-    "name": "Wildlife",
-    "keywords": [
-      "Ferrets",
-      "Unicorns"
-    ]
-  }],
-  "references": [{
-    "name": "Jane Doe",
-    "reference": "Reference available upon request."
-  }],
-  "projects": [{
-    "name": "Intersection Problem in Highway-Env (Multi-Agent Deep Reinforcement Learning)",
-    "startDate": "2021-01-01",
-    "endDate": "2021-06-01",
-    "description": "Designed and implemented multi-agent deep reinforcement learning models for safe intersection handling in complex highway environments.",
-    "highlights": [
-      "Trained multiple agents using Double Q Network",
-      "Enhanced performance metrics through reward tuning"
-    ],
-    "url": "https://github.com/prchigoyal01/RL_PROJECT_HIGHWAY"
-  }, {
-    "name": "Image-to-Image Translation (Deep Learning)",
-    "startDate": "2022-01-01",
-    "endDate": "2022-06-01",
-    "description": "Implemented models for Reverse Semantic Segmentation and Super Resolution tasks using state-of-the-art architectures.",
-    "highlights": [
-      "Applied Pix2Pix, pSp encoder, and SRGAN models",
-      "Tuned models for high-quality outputs with fast convergence"
-    ],
-    "url": "https://drive.google.com/file/d/1NQdzGhq25NozySKw6Of0OSbfLTdgZKaq/view"
-  }, {
-    "name": "Color Switch Game (JavaFX Game Development)",
-    "startDate": "2021-01-01",
-    "endDate": "2021-05-01",
-    "description": "Developed an interactive color-switching game using JavaFX.",
-    "highlights": [
-      "Applied OOP principles for efficient gameplay mechanics",
-      "Implemented detailed class structures and UI diagrams"
-    ],
-    "url": "https://github.com/prchigoyal01/Color-Switch-Game"
-  }, {
-    "name": "Linux Shell (Systems Programming in C)",
-    "startDate": "2020-08-01",
-    "endDate": "2020-12-01",
-    "description": "Designed a custom shell to execute Linux commands using system calls and standard C libraries.",
-    "highlights": [
-      "Implemented command parsing for multiple commands and arguments"
-    ],
-    "url": "https://github.com/prchigoyal01/Basic-Linux-Shell-in-C"
-  }]
+  "projects": [
+    {
+      "title": "Intersection Problem in Highway-Env (Multi-Agent Deep Reinforcement Learning)",
+      "link": "https://tinyurl.com/4s3mspck",
+      "highlights": [
+        "Designed and implemented multi-agent deep reinforcement learning models for safe intersection handling in complex highway environments.",
+        "Trained multiple agents using Double Q Network architectures with hard-parameter sharing to enable cooperative decision-making.",
+        "Enhanced performance metrics through custom reward tuning and model optimizations.",
+        "Tools: Python, Gym, Stable Baselines, Keras."
+      ]
+    },
+    {
+      "title": "Image-to-Image Translation (Deep Learning)",
+      "link": "https://tinyurl.com/3tfcz5ap",
+      "highlights": [
+        "Implemented and evaluated models for Reverse Semantic Segmentation and Super Resolution tasks using state-of-the-art architectures.",
+        "Applied and tuned Pix2Pix, pSp encoder, and SRGAN models to achieve high-quality outputs with fast convergence on Cityscapes and CelebA-HQ datasets.",
+        "Tools: C#, .NET, SQL, XML."
+      ]
+    },
+    {
+      "title": "Color Switch Game (JavaFX Game Development)",
+      "link": "https://tinyurl.com/yw5x72ta",
+      "highlights": [
+        "Developed an interactive color-switching game as a first full-scale project in JavaFX, implementing UI diagrams and detailed class structures.",
+        "Applied Object-Oriented Programming principles including inheritance and abstraction to design efficient gameplay mechanics.",
+        "Tools: Java, JavaFX library."
+      ]
+    },
+    {
+      "title": "Linux Shell (Systems Programming in C)",
+      "link": "https://tinyurl.com/bdn4uexj",
+      "highlights": [
+        "Designed a custom shell to execute internal and external Linux commands, leveraging system calls and standard C libraries.",
+        "Implemented a robust command parsing mechanism to handle multiple commands and arguments efficiently.",
+        "Tools: C programming, Linux System Calls."
+      ]
+    },
+    {
+      "title": "Handwriting Recognition (Deep Learning)",
+      "link": "https://tinyurl.com/yscwrrm9",
+      "highlights": [
+        "Built a handwriting recognition model achieving 85% accuracy, applying concepts learned from Andrew Ng's Deep Learning Specialization.",
+        "Implemented a CNN-BLSTM architecture and evaluated using CTC (Connectionist Temporal Classification) for sequential data recognition.",
+        "Tools: Python, Keras."
+      ]
+    },
+    {
+      "title": "Trsna - Smart Water Tap Extension (Arduino-based Prototype)",
+      "link": "https://tinyurl.com/4j6ymdwj",
+      "highlights": [
+        "Developed a smart water tap extension system using Arduino and sensors to optimize water usage based on an account-based control system.",
+        "Collaborated in a team project, overcoming challenges in hardware integration and sensor calibration to ensure functional water flow control.",
+        "Tools: Arduino, Sensors, C programming."
+      ]
+    }
+  ]
 }
