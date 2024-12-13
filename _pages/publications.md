@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /publications/
-title: publications
+title: publications/posters
 description: 
 nav: true
 nav_order: 2
@@ -13,18 +13,11 @@ nav_order: 2
 
 <div class="publications">
 
-{% bibliography --query "not @poster" %}
+{% bibliography %}
 
 </div>
 
 ---
 
-<!-- Posters Section -->
 
-<div class="posters">
-
-
-{% bibliography --query @poster %}
-
-</div>
 
