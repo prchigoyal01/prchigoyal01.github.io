@@ -38,7 +38,7 @@
   ],
   
   
-  "work_experience": [{
+  "work experience": [{
     "name": "Microsoft",
     "position": "Software Engineer",
     "url": "https://microsoft.com",
@@ -74,11 +74,13 @@
       "Deployed games to 3 schools with 500+ students"
     ]
   }],
-  "research_experience": [
+  "research experience": [
     {
       "time_period": "Sept 2022 – May 2023",
-      "title": "Federated Learning with unannotated data",
-      "type": "B.Tech. Thesis",
+      "name": "Federated Learning with unannotated data",
+      "position": "B.Tech. Thesis",
+      "startDate": "2022-09-01",
+      "endDate": "2023-05-01",
       "guide": {
         "name": "Dr. Ranjitha Prasad",
         "link": "https://sites.google.com/site/ranjithap/home?authuser=0"
@@ -91,9 +93,10 @@
       ]
     },
     {
-      "time_period": "Jan 2022 - May 2022",
-      "title": "Vehicular Planning using Deep Reinforcement Learning",
-      "type": "Independent Project",
+      "name": "Vehicular Planning using Deep Reinforcement Learning",
+      "position": "Independent Project",
+      "startDate": "2022-01-01",
+      "endDate": "2022-05-01",
       "guide": [
         {
           "name": "Dr. Sanjit Kaul",
@@ -110,9 +113,10 @@
       ]
     },
     {
-      "time_period": "Aug 2022 – Dec 2022",
-      "title": "Plug-and-Play Platform for COVID-19 Resource Allocation",
-      "type": "Independent Project",
+      "name": "Plug-and-Play Platform for COVID-19 Resource Allocation",
+      "position": "Independent Project",
+      "startDate": "2022-08-01",
+      "endDate": "2022-12-01",
       "guide": {
         "name": "Dr. Tavpritesh Sethi",
         "link": "https://www.iiitd.ac.in/tavpritesh"
@@ -124,9 +128,10 @@
       ]
     },
     {
-      "time_period": "Jan 2021 – May 2021",
-      "title": "SeekSuspect",
-      "type": "Research Project",
+      "name": "SeekSuspect",
+      "position": "Research Project",
+      "startDate": "2021-01-01",
+      "endDate": "2022-05-02",
       "link": "https://dl.acm.org/doi/abs/10.1145/3444685.3446252",
       "organization": "MIDAS, IIIT Delhi",
       "guide": {
