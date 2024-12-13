@@ -1,97 +1,217 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
-
-- title: Education
-  type: time_table
-  contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
-
-- title: Experience
-  type: time_table
-  contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+---
+basics:
+  name: Prachi Goyal
+  label: Software Engineer
+  image: ''
+  email: prachi.goyal@gmail.com
+  phone: "+91 99713 41888"
+  url: https://github.com/prchigoyal01
+  summary: A Software Engineer with a specialization in API development, deep learning,
+    and systems optimization. Proven experience in building large-scale systems and
+    research in federated learning.
+  location:
+    address: Bangalore, India
+    postalCode: '560001'
+    city: Bangalore
+    countryCode: IN
+    region: Karnataka
+  profiles:
+  - network: GitHub
+    username: prchigoyal01
+    url: https://github.com/prchigoyal01
+publications:
+- name: Importance Sampling Based Federated Unsupervised Representation Learning
+  publisher: IEEE
+  releaseDate: '2024-03-01'
+  url:
+  - https://ieeexplore.ieee.org/document/10447119
+  - https://neurips.cc/virtual/2024/108960
+  summary: Published work on a novel FL algorithm for unsupervised and personalized
+    representation learning.
+work_experience:
+- name: Microsoft
+  position: Software Engineer
+  url: https://microsoft.com
+  startDate: '2023-06-01'
+  endDate: Present
+  summary: Building impactful APIs for Microsoft Graph Teams, specializing in meetings,
+    teams, and channels. Developed a CI/CD pipeline for a Business Intelligence data
+    pipeline.
+  highlights:
+  - Specialization in API development and DevOps
+  - Built APIs for Microsoft Graph Teams
+  - Developed a CI/CD pipeline for Business Intelligence
+  - On-call for large-scale systems, reliability, and optimization
+- name: Microsoft
+  position: Software Engineer Intern
+  url: https://microsoft.com
+  startDate: '2022-06-01'
+  endDate: '2022-07-31'
+  summary: Worked on ECS flighting system for Audio, Signal and MediaTA under OneDrive
+    SharePoint.
+  highlights:
+  - Implemented ECS flighting system for Signals
+  - Developed private preview tasks for specific tenants
+- name: Atletik Games
+  position: Deep Learning Android Game Developer
+  url: https://atletikgames.com
+  startDate: '2021-06-01'
+  endDate: '2021-07-31'
+  summary: Developed Android games based on deep learning for Physical Education during
+    Covid-19 lockdown.
+  highlights:
+  - Integrated state-of-the-art pose and object detection models
+  - Deployed games to 3 schools with 500+ students
+research_experience:
+- time_period: Sept 2022 – May 2023
+  title: Federated Learning with unannotated data
+  type: B.Tech. Thesis
+  guide:
+    name: Dr. Ranjitha Prasad
+    link: https://sites.google.com/site/ranjithap/home?authuser=0
+  highlights:
+  - Developed a novel FL algorithm for unsupervised and personalized representation
+    learning, later published in ICASSP 2024.
+  - Used Variational AutoEncoders to formulate clients' unlabelled and non-IID data
+    to gaussian distributions.
+  - Aggregated distributions using mean-field formulation. Used importance sampling
+    based weights for calculating reconstruction loss.
+  - Is-FedVAE outperformed SoTA FL baselines and demonstrated faster convergence and
+    higher accuracy.
+- time_period: Jan 2022 - May 2022
+  title: Vehicular Planning using Deep Reinforcement Learning
+  type: Independent Project
+  guide:
+  - name: Dr. Sanjit Kaul
+    link: https://sites.google.com/view/sanjitkkaul/
+  - name: Dr. Saket Anand
+    link: http://faculty.iiitd.ac.in/~anands/
+  highlights:
+  - Worked on optimizing Autonomous Agent Vehicle communication for local and extended
+    view under bandwidth constraints using Deep Reinforcement Learning methods.
+  - Surveyed literature and designed an architecture for multi-modal learning giving
+    multiple outputs. Curated a reward system for efficient learning.
+- time_period: Aug 2022 – Dec 2022
+  title: Plug-and-Play Platform for COVID-19 Resource Allocation
+  type: Independent Project
+  guide:
+    name: Dr. Tavpritesh Sethi
+    link: https://www.iiitd.ac.in/tavpritesh
+  highlights:
+  - Developed a reinforcement learning (RL) based platform for efficient resource
+    allocation during the COVID-19 pandemic.
+  - Designed a generalized platform that could optimize the allocation of any resource
+    by taking input datasets and considering relevant columns.
+  - Applied actor-critic methods to optimize allocation, ensuring a scalable, plug-and-play
+    system for varied use cases.
+- time_period: Jan 2021 – May 2021
+  title: SeekSuspect
+  type: Research Project
+  link: https://dl.acm.org/doi/abs/10.1145/3444685.3446252
+  organization: MIDAS, IIIT Delhi
+  guide:
+    name: Rajiv Ratn Shah
+    link: https://midas.iiitd.edu.in/team/rajiv-ratn-shah.html
+  highlights:
+  - SeekSuspect is an interactive facial image retrieval model that uses visual memory
+    as input to retrieve faces from a large-scale database.
+  - Fine-tuned pre-trained ResNet and VGG-16 models, improving accuracy from 82% to
+    86% by enhancing efficiency and embedding extraction.
+  - Evaluated and compared various clustering algorithms for embedding extraction,
+    improving model performance and retrieval accuracy.
+education:
+- institution: Indraprastha Institute of Information and Technology Delhi (IIITD)
+  url: https://iiitd.ac.in
+  area: Computer Science and Applied Mathematics
+  studyType: Bachelor
+  startDate: '2019-08-01'
+  endDate: '2023-05-01'
+  score: '8.82'
+  courses:
+  - Deep Learning
+  - Artificial Intelligence
+  - Reinforcement Learning
+  - Data Mining
+  - Algorithm Design and Analysis
+achievements:
+- title: Women Techmakers Engineering Fellow Scholarship
+  organization: Google, Talentsprint
+  link: https://we.talentsprint.com/#successStories
+  period: March 2020 - April 2022
+  highlights:
+  - Selected among 120 scholars from over 15,000 applicants across India to receive
+    a USD 2,400 scholarship.
+  - Participated in coding bootcamps focusing on coding practices, design thinking,
+    and hands-on projects as a freshman.
+- title: AI/ML Head
+  organization: Google Developer Student Circle, IIIT Delhi
+  period: Oct 2021 - Sept 2022
+  highlights:
+  - Organized workshops on machine learning for peers in IIIT Delhi.
+  - Created and actively engaged in a telegram forum to foster learning and discussion
+    in machine learning.
+- title: Contributor at Leadership Connection Pillar
+  organization: Technical Women at Microsoft
+  period: Aug 2024 - Current
+  highlights:
+  - Responsible for conducting and hosting AMAs with senior leaders at Microsoft for
+    the TWaM community.
+skills:
+- name: Web Development
+  level: Master
+  keywords:
+  - API Development
+  - DevOps
+  - CI/CD
+  - Java
+  - Python
+projects:
+- title: Intersection Problem in Highway-Env (Multi-Agent Deep Reinforcement Learning)
+  link: https://tinyurl.com/4s3mspck
+  highlights:
+  - Designed and implemented multi-agent deep reinforcement learning models for safe
+    intersection handling in complex highway environments.
+  - Trained multiple agents using Double Q Network architectures with hard-parameter
+    sharing to enable cooperative decision-making.
+  - Enhanced performance metrics through custom reward tuning and model optimizations.
+  - 'Tools: Python, Gym, Stable Baselines, Keras.'
+- title: Image-to-Image Translation (Deep Learning)
+  link: https://tinyurl.com/3tfcz5ap
+  highlights:
+  - Implemented and evaluated models for Reverse Semantic Segmentation and Super Resolution
+    tasks using state-of-the-art architectures.
+  - Applied and tuned Pix2Pix, pSp encoder, and SRGAN models to achieve high-quality
+    outputs with fast convergence on Cityscapes and CelebA-HQ datasets.
+  - 'Tools: C#, .NET, SQL, XML.'
+- title: Color Switch Game (JavaFX Game Development)
+  link: https://tinyurl.com/yw5x72ta
+  highlights:
+  - Developed an interactive color-switching game as a first full-scale project in
+    JavaFX, implementing UI diagrams and detailed class structures.
+  - Applied Object-Oriented Programming principles including inheritance and abstraction
+    to design efficient gameplay mechanics.
+  - 'Tools: Java, JavaFX library.'
+- title: Linux Shell (Systems Programming in C)
+  link: https://tinyurl.com/bdn4uexj
+  highlights:
+  - Designed a custom shell to execute internal and external Linux commands, leveraging
+    system calls and standard C libraries.
+  - Implemented a robust command parsing mechanism to handle multiple commands and
+    arguments efficiently.
+  - 'Tools: C programming, Linux System Calls.'
+- title: Handwriting Recognition (Deep Learning)
+  link: https://tinyurl.com/yscwrrm9
+  highlights:
+  - Built a handwriting recognition model achieving 85% accuracy, applying concepts
+    learned from Andrew Ng's Deep Learning Specialization.
+  - Implemented a CNN-BLSTM architecture and evaluated using CTC (Connectionist Temporal
+    Classification) for sequential data recognition.
+  - 'Tools: Python, Keras.'
+- title: Trsna - Smart Water Tap Extension (Arduino-based Prototype)
+  link: https://tinyurl.com/4j6ymdwj
+  highlights:
+  - Developed a smart water tap extension system using Arduino and sensors to optimize
+    water usage based on an account-based control system.
+  - Collaborated in a team project, overcoming challenges in hardware integration
+    and sensor calibration to ensure functional water flow control.
+  - 'Tools: Arduino, Sensors, C programming.'
