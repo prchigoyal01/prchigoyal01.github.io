@@ -16,3 +16,16 @@ nav_order: 2
 {% bibliography %}
 
 </div>
+
+---
+
+<!-- Posters Section -->
+
+<div class="posters">
+
+### Posters
+
+{% bibliography --query @poster %}
+
+</div>
+
