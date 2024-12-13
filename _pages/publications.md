@@ -13,7 +13,7 @@ nav_order: 2
 
 <div class="publications">
 
-{% bibliography %}
+{% bibliography --query "not @poster" %}
 
 </div>
 
@@ -23,7 +23,6 @@ nav_order: 2
 
 <div class="posters">
 
-### Posters
 
 {% bibliography --query @poster %}
 
