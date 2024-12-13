@@ -155,6 +155,7 @@
     {% elsif thesis contains entry.type %}
       {% capture entrytype %}<em>{{ entry.school }}</em>{% endcapture %}
     {% else %}
+      {% capture entrytype %}<em>In {{ entry.booktitle }}</em>{% endcapture %}
       {% capture entrytype %}{% endcapture %}
     {% endif %}
     {% if entry.month %}
