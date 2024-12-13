@@ -38,7 +38,7 @@
   ],
   
   
-  "work experience": [{
+  "work_experience": [{
     "name": "Microsoft",
     "position": "Software Engineer",
     "url": "https://microsoft.com",
@@ -74,7 +74,7 @@
       "Deployed games to 3 schools with 500+ students"
     ]
   }],
-  "research experience": [
+  "research_experience": [
     {
       "time_period": "Sept 2022 – May 2023",
       "title": "Federated Learning with unannotated data",
@@ -156,7 +156,7 @@
       "Algorithm Design and Analysis"
     ]
   }],
-  "achievements and responsible positions": [
+  "achievements": [
       {
         "title": "Women Techmakers Engineering Fellow Scholarship",
         "organization": "Google, Talentsprint",
