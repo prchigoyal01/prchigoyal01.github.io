@@ -85,14 +85,16 @@ layout: default
                   {% include resume/basics.liquid %}
                 {% when 'education' %}
                   {% include resume/education.liquid %}
-                {% when 'work' %}
-                  {% include resume/work.liquid %}
+                {% when 'work experience' %}
+                  {% include resume/work experience.liquid %}
+                {% when 'research experience' %}
+                  {% include resume/research experience.liquid %}
                 {% when 'volunteer' %}
                   {% include resume/volunteer.liquid %}
                 {% when 'projects' %}
                   {% include resume/projects.liquid %}
-                {% when 'awards' %}
-                  {% include resume/awards.liquid %}
+                {% when 'achievements and responsible positions' %}
+                  {% include resume/achievements and responsible positions.liquid %}
                 {% when 'skills' %}
                   {% include resume/skills.liquid %}
                 {% when 'publications' %}
