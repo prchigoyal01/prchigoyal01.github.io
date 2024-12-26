@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://github.com/prchigoyal01'>Github</a>. <a href='mailto:prachigoyal2191@gmail.com'>Email</a>. <a href='https://www.linkedin.com/in/prachi-goyal-0a6907195/'>Linkedin</a>. +91 9717413888.
+subtitle: <a href='https://github.com/prchigoyal01'>Github</a>. <a href='mailto:prachigoyal2191@gmail.com'>Email</a>. <a href='https://www.linkedin.com/in/prachi-goyal-0a6907195/'>Linkedin</a>.
 
 profile:
   align: right
