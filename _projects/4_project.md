@@ -2,7 +2,7 @@
 layout: page
 title: Color Switch Game
 description: JavaFX Game Development
-img: assets/img/100.jpg
+img: assets/img/10.jpg
 importance: 4
 category: 
 ---
