@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Federated Learning with unannotated data
-description: Nazreen Shah*; Prachi Goyal*; Ranjitha Prasad
+description: B.Tech thesis
 img: assets/img/12.jpg
 importance: 1
 category:
@@ -28,5 +28,7 @@ related_publications: true
 </section>
 
 
-<a href="https://ieeexplore.ieee.org/abstract/document/10447119">Paper Link</a>
-<a href="https://ieeexplore.ieee.org/abstract/document/10447119">Github Link</a>
+<a href="https://ieeexplore.ieee.org/abstract/document/10447119">Paper</a>
+<a href="https://ieeexplore.ieee.org/abstract/document/10447119">Github</a>
+<a href="https://drive.google.com/file/d/11W4SMa6yHElmF9RD_UkIZf8jl2AZTYh9/view?usp=sharing">Poster</a>
+<a href="https://drive.google.com/file/d/1tCAFNQdLgmyYAcl5segucsSxIpM9uz8h/view?usp=sharing">Thesis</a>
