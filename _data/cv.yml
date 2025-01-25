@@ -31,7 +31,6 @@ publications:
 work_experience:
 - name: Microsoft
   position: Software Engineer
-  url: https://microsoft.com
   startDate: '2023-06-01'
   endDate: Present
   summary: Building impactful APIs for Microsoft Graph Teams, specializing in meetings,
@@ -44,7 +43,6 @@ work_experience:
   - On-call for large-scale systems, reliability, and optimization
 - name: Microsoft
   position: Software Engineer Intern
-  url: https://microsoft.com
   startDate: '2022-06-01'
   endDate: '2022-07-31'
   summary: Worked on ECS flighting system for Audio, Signal and MediaTA under OneDrive
@@ -54,7 +52,6 @@ work_experience:
   - Developed private preview tasks for specific tenants
 - name: Atletik Games
   position: Deep Learning Android Game Developer
-  url: https://atletikgames.com
   startDate: '2021-06-01'
   endDate: '2021-07-31'
   summary: Developed Android games based on deep learning for Physical Education during
@@ -165,53 +162,4 @@ skills:
   - CI/CD
   - Java
   - Python
-projects:
-- title: Intersection Problem in Highway-Env (Multi-Agent Deep Reinforcement Learning)
-  link: https://tinyurl.com/4s3mspck
-  highlights:
-  - Designed and implemented multi-agent deep reinforcement learning models for safe
-    intersection handling in complex highway environments.
-  - Trained multiple agents using Double Q Network architectures with hard-parameter
-    sharing to enable cooperative decision-making.
-  - Enhanced performance metrics through custom reward tuning and model optimizations.
-  - 'Tools: Python, Gym, Stable Baselines, Keras.'
-- title: Image-to-Image Translation (Deep Learning)
-  link: https://tinyurl.com/3tfcz5ap
-  highlights:
-  - Implemented and evaluated models for Reverse Semantic Segmentation and Super Resolution
-    tasks using state-of-the-art architectures.
-  - Applied and tuned Pix2Pix, pSp encoder, and SRGAN models to achieve high-quality
-    outputs with fast convergence on Cityscapes and CelebA-HQ datasets.
-  - 'Tools: C#, .NET, SQL, XML.'
-- title: Color Switch Game (JavaFX Game Development)
-  link: https://tinyurl.com/yw5x72ta
-  highlights:
-  - Developed an interactive color-switching game as a first full-scale project in
-    JavaFX, implementing UI diagrams and detailed class structures.
-  - Applied Object-Oriented Programming principles including inheritance and abstraction
-    to design efficient gameplay mechanics.
-  - 'Tools: Java, JavaFX library.'
-- title: Linux Shell (Systems Programming in C)
-  link: https://tinyurl.com/bdn4uexj
-  highlights:
-  - Designed a custom shell to execute internal and external Linux commands, leveraging
-    system calls and standard C libraries.
-  - Implemented a robust command parsing mechanism to handle multiple commands and
-    arguments efficiently.
-  - 'Tools: C programming, Linux System Calls.'
-- title: Handwriting Recognition (Deep Learning)
-  link: https://tinyurl.com/yscwrrm9
-  highlights:
-  - Built a handwriting recognition model achieving 85% accuracy, applying concepts
-    learned from Andrew Ng's Deep Learning Specialization.
-  - Implemented a CNN-BLSTM architecture and evaluated using CTC (Connectionist Temporal
-    Classification) for sequential data recognition.
-  - 'Tools: Python, Keras.'
-- title: Trsna - Smart Water Tap Extension (Arduino-based Prototype)
-  link: https://tinyurl.com/4j6ymdwj
-  highlights:
-  - Developed a smart water tap extension system using Arduino and sensors to optimize
-    water usage based on an account-based control system.
-  - Collaborated in a team project, overcoming challenges in hardware integration
-    and sensor calibration to ensure functional water flow control.
-  - 'Tools: Arduino, Sensors, C programming.'
+
