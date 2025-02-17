@@ -5,7 +5,7 @@ description: Undergraduate Thesis
 img: assets/img/12.jpg
 importance: 1
 category:
-related_publications: true
+related_publications: 
 ---
 
 <section id="abstract">
