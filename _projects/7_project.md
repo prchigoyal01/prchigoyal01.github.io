@@ -2,7 +2,7 @@
 layout: page
 title: Trsna - Smart Water Tap Extension
 description: Arduino-based Prototype
-img: assets/img/4.jpg
+img: 
 importance: 5
 category: Development/Industrial Projects
 related_publications: false
