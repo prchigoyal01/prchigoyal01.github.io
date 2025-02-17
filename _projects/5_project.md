@@ -2,7 +2,7 @@
 layout: page
 title: Linux Shell
 description: Systems Programming in C
-img: assets/img/1.jpg
+img: 
 importance: 3
 category: Development/Industrial Projects
 ---
@@ -46,6 +46,9 @@ category: Development/Industrial Projects
     a strong foundation for further work in operating systems and system tools development.
   </p>
 </div>
+
+<a href="https://github.com/prchigoyal01/Basic-Linux-Shell-in-C">Github</a>
+
 
 
 
