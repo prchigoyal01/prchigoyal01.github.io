@@ -130,19 +130,33 @@ research_experience:
   - Evaluated and compared various clustering algorithms for embedding extraction,
     improving model performance and retrieval accuracy.
 education:
+- institution: Carnegie Mellon University, School of Computer Science 
+  url: https://www.cmu.edu/
+  area: Intelligent Information Systems 
+  studyType: Master of Science
+  startDate: '2025-08-01'
+  endDate: '2026-12-01'
+  score: ''
+  courses:
+  - Ongoing research at OPAL, advised by Dr Gauri Joshi, in efficient inference methods.
+  - Deep Learning Systems
+  - Machine Learning
+  - Advanced Natural Language Processing
 - institution: Indraprastha Institute of Information and Technology Delhi (IIITD)
   url: https://iiitd.ac.in
   area: Computer Science and Applied Mathematics
-  studyType: Bachelor
+  studyType: Bachelor of Technology
   startDate: '2019-08-01'
   endDate: '2023-05-01'
   score: '8.82'
   courses:
-  - Deep Learning
-  - Artificial Intelligence
-  - Reinforcement Learning
-  - Data Mining
   - Algorithm Design and Analysis
+  - Deep Learning
+  - Reinforcement Learning
+  - Artificial Intelligence
+  - Data Mining
+  - Teaching Assistant - Computer Organization
+  - Teaching Assistant - Introduction to Programming
 achievements:
 - title: Women Techmakers Engineering Fellow Scholarship
   organization: Google, Talentsprint
