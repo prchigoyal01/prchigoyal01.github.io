@@ -2,7 +2,7 @@
 layout: page
 title: Linux Shell
 description: Systems Programming in C
-img: 
+img: assets/img/linux_shell.jpg
 importance: 3
 category: Development/Industrial Projects
 ---
