@@ -9,7 +9,7 @@ profile:
   image: prachi_cmu.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Software Engineer, Microsoft</p>
+    <p>Grad Student At CMU Pursuing Masters Of Science In Intelligent Information Systems</p>
 
 news: true # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
