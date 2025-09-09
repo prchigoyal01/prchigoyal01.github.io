@@ -10,15 +10,15 @@ profile:
   image: prachi_cmu.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Grad Student At CMU Pursuing Masters Of Science In Intelligent Information Systems</p>
+    <p>MS NLP at Carnegie Mellon (LTI, SCS) </p>
 
 news: true # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-Hi! I’m a passionate researcher and software engineer with a deep interest in Federated Learning (FL), Large Language Models (LLMs), and efficient inference systems. I’m currently pursuing a Master of Science in Intelligent Information Systems at Carnegie Mellon University (Dec 2026), where I’m conducting research at OPAL with Dr. Gauri Joshi on adaptive LLM text infilling and efficient inference methods. My research journey began at IIIT Delhi, where I explored reinforcement learning for vehicular planning and co-authored a novel FL algorithm, published at ICASSP 2024 and presented at NeurIPS WiML 2024.
+Hi! I’m a researcher and software engineer passionate about Federated Learning (FL), Large Language Models (LLMs), and efficient inference systems. I’m pursuing an MS in Intelligent Information Systems at Carnegie Mellon University (Dec 2026), conducting research at OPAL with Dr. Gauri Joshi on adaptive LLM text infilling and efficient inference methods. My journey began at IIIT Delhi, where I worked on reinforcement learning for vehicular planning and co-authored an FL algorithm published at ICASSP 2024 and presented at NeurIPS WiML.
 
-At Microsoft, I strengthened my skills in building large-scale systems by delivering APIs for Teams Graph, experiences that complemented my research by sharpening my ability to design robust, scalable infrastructure for ML-powered applications.
+At Microsoft, I honed my skills in building large-scale systems through Teams Graph APIs, complementing my research with experience in scalable infrastructure for ML applications.
 
-Beyond work, I advocate for diversity in STEM, mentor aspiring women in tech, and lead initiatives to make AI/ML education more accessible. With a strong foundation in both research and engineering, I aim to create impactful solutions at the intersection of scalable systems and machine intelligence.
+Beyond work, I mentor aspiring women in tech, advocate for diversity in STEM, and lead initiatives to make AI/ML education more accessible. With a strong foundation in research and engineering, I aim to create impactful solutions at the intersection of systems and machine intelligence.
