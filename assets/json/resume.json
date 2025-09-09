@@ -76,8 +76,8 @@
   "research experience": [
     {
       "time_period": "Sept 2025 – Present",
-      "title": "LLM Fill-in-the-Blank Correction",
-      "type": "OPAL, Carnegie Mellon University, Advised by Dr. Gauri Joshi",
+      "name": "LLM Fill-in-the-Blank Correction",
+      "position": "OPAL, Carnegie Mellon University, Advised by Dr. Gauri Joshi",
       "guide": {
         "name": "Dr. Ranjitha Prasad",
         "link": "https://sites.google.com/site/ranjithap/home?authuser=0"
@@ -89,8 +89,8 @@
     },
     {
       "time_period": "Sept 2022 – May 2023",
-      "title": "Federated Learning with unannotated data",
-      "type": "B.Tech. Thesis",
+      "name": "Federated Learning with unannotated data",
+      "position": "B.Tech. Thesis",
       "guide": {
         "name": "Dr. Ranjitha Prasad",
         "link": "https://sites.google.com/site/ranjithap/home?authuser=0"
@@ -104,8 +104,8 @@
     },
     {
       "time_period": "Jan 2022 - May 2022",
-      "title": "Vehicular Planning using Deep Reinforcement Learning",
-      "type": "Wireless Systems Lab, IIIT-Delhi",
+      "name": "Vehicular Planning using Deep Reinforcement Learning",
+      "position": "Wireless Systems Lab, IIIT-Delhi",
       "guide": [
         {
           "name": "Dr. Sanjit Kaul",
@@ -123,8 +123,8 @@
     },
     {
       "time_period": "Aug 2022 – Dec 2022",
-      "title": "Plug-and-Play Platform for COVID-19 Resource Allocation",
-      "type": "TavLab, IIIT-Delhi",
+      "name": "Plug-and-Play Platform for COVID-19 Resource Allocation",
+      "position": "TavLab, IIIT-Delhi",
       "guide": {
         "name": "Dr. Tavpritesh Sethi",
         "link": "https://www.iiitd.ac.in/tavpritesh"
@@ -137,8 +137,8 @@
     },
     {
       "time_period": "Jan 2021 – May 2021",
-      "title": "SeekSuspect",
-      "type": "Research Project",
+      "name": "SeekSuspect",
+      "position": "Research Project",
       "link": "https://dl.acm.org/doi/abs/10.1145/3444685.3446252",
       "organization": "MIDAS, IIIT Delhi",
       "guide": {
