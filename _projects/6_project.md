@@ -2,7 +2,7 @@
 layout: page
 title: Handwriting Recognition
 description: Deep Learning
-img:
+img: assets/img/handwriting_recog.jpg
 importance: 4
 category: Development/Industrial Projects
 ---
