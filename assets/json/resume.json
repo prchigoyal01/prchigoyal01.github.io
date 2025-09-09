@@ -3,84 +3,94 @@
     "name": "Prachi Goyal",
     "label": "Software Engineer",
     "image": "",
-    "email": "prachi.goyal@gmail.com",
-    "phone": "+91 99713 41888",
+    "email": "prachigoyal2191@gmail.com",
+    "phone": "+1 (412) 475-3378",
     "url": "https://github.com/prchigoyal01",
-    "summary": "A Software Engineer with a specialization in API development, deep learning, and systems optimization. Proven experience in building large-scale systems and research in federated learning.",
+    "summary": "Currently pursuing a Master of Science in Intelligent Information Systems at Carnegie Mellon University, School of Computer Science (Dec 2026), with coursework in Deep Learning Systems, Machine Learning, and Advanced Natural Language Processing. Conducting ongoing research at OPAL under the guidance of Dr. Gauri Joshi, focusing on efficient inference methods. A Software Engineer with a specialization in API development, deep learning, and systems optimization. Proven experience in building large-scale systems and research in federated learning.",
     "location": {
-      "address": "Bangalore, India",
-      "postalCode": "560001",
-      "city": "Bangalore",
-      "countryCode": "IN",
-      "region": "Karnataka"
+      "address": "Pittsburgh, Pennsylvania",
+      "postalCode": "15217",
+      "city": "Pittsburgh",
+      "countryCode": "US",
+      "region": "Pennsylvania"
     },
-    "profiles": [{
-      "network": "GitHub",
-      "username": "prchigoyal01",
-      "url": "https://github.com/prchigoyal01"
-    }]
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "prchigoyal01",
+        "url": "https://github.com/prchigoyal01"
+      }
+    ]
   },
   "publications": [
     {
-      "date": "March 2024",
-      "title": "Importance Sampling Based Federated Unsupervised Representation Learning",
-      "authors": [
-        "Nazreen Shah*",
-        "Prachi Goyal*",
-        "Dr. Ranjitha Prasad"
-      ],
-      "notes": "* Equal contribution.",
-      "links": [
+      "name": "Importance Sampling Based Federated Unsupervised Representation Learning",
+      "publisher": "IEEE",
+      "releaseDate": "2024-03-01",
+      "url": [
         "https://ieeexplore.ieee.org/document/10447119",
         "https://neurips.cc/virtual/2024/108960"
+      ],
+      "summary": "Published work on a novel FL algorithm for unsupervised and personalized representation learning."
+    }
+  ],
+  "workExperience": [
+    {
+      "name": "Microsoft",
+      "position": "Software Engineer",
+      "startDate": "2023-06-01",
+      "endDate": "Present",
+      "summary": "Building impactful APIs for Microsoft Graph Teams, specializing in meetings, teams, and channels. Developed a CI/CD pipeline for a Business Intelligence data pipeline.",
+      "highlights": [
+        "Delivered Teams Graph APIs for Meetings, Teams & Channels with 200K+ monthly calls; adopted by key enterprise partners.",
+        "Built a Bulk Remove API with IC3 async support, eliminating 47.5% request throttling.",
+        "Enhanced Transcript & Recording APIs with metadata to enable duration estimation and traceability.",
+        "Engineered telemetry and deployment pipelines to track 1B+ monthly calls and 10% MoM growth.",
+        "Created BI Dashboards in Azure Data Explorer; streamlined BI reporting and surfaced monetization insights for leadership.",
+        "Finalist at Microsoft FHL Hackathon, built an MCP server; Planner assistant using Graph change notifications to generate personalized to-do lists using chats, channel messages and meeting transcripts in Teams."
+      ]
+    },
+    {
+      "name": "Microsoft",
+      "position": "Software Engineer Intern",
+      "startDate": "2022-06-01",
+      "endDate": "2022-07-31",
+      "summary": "Worked on ECS flighting system for Audio, Signal and MediaTA under OneDrive SharePoint.",
+      "highlights": [
+        "Implemented Killswitch support in Signals microservice using ECS flighting, developed and tested a flexible ECS framework for typed values, enabling safe and continuous deployments.",
+        "Developed a private preview pipeline for ZTNA, filtering tenant Signals via ECS and transmitting serialized data to EventHub."
+      ]
+    },
+    {
+      "name": "Atletik Games",
+      "position": "Deep Learning Android Game Developer",
+      "startDate": "2021-06-01",
+      "endDate": "2021-07-31",
+      "summary": "Developed Android games based on deep learning for Physical Education during Covid-19 lockdown.",
+      "highlights": [
+        "Integrated state-of-the-art pose and object detection models",
+        "Deployed games to 3 schools with 500+ students"
       ]
     }
   ],
-  
-  
-  "work experience": [{
-    "name": "Microsoft",
-    "position": "Software Engineer",
-    "url": "https://microsoft.com",
-    "startDate": "2023-06-01",
-    "endDate": "Present",
-    "summary": "Building impactful APIs for Microsoft Graph Teams, specializing in meetings, teams, and channels. Developed a CI/CD pipeline for a Business Intelligence data pipeline.",
-    "highlights": [
-      "Specialization in API development and DevOps",
-      "Built APIs for Microsoft Graph Teams",
-      "Developed a CI/CD pipeline for Business Intelligence",
-      "On-call for large-scale systems, reliability, and optimization"
-    ]
-  }, {
-    "name": "Microsoft",
-    "position": "Software Engineer Intern",
-    "url": "https://microsoft.com",
-    "startDate": "2022-06-01",
-    "endDate": "2022-07-31",
-    "summary": "Worked on ECS flighting system for Audio, Signal and MediaTA under OneDrive SharePoint.",
-    "highlights": [
-      "Implemented ECS flighting system for Signals",
-      "Developed private preview tasks for specific tenants"
-    ]
-  }, {
-    "name": "Atletik Games",
-    "position": "Deep Learning Android Game Developer",
-    "url": "https://atletikgames.com",
-    "startDate": "2021-06-01",
-    "endDate": "2021-07-31",
-    "summary": "Developed Android games based on deep learning for Physical Education during Covid-19 lockdown.",
-    "highlights": [
-      "Integrated state-of-the-art pose and object detection models",
-      "Deployed games to 3 schools with 500+ students"
-    ]
-  }],
-  "research experience": [
+  "researchExperience": [
+    {
+      "time_period": "Sept 2025 – Present",
+      "title": "LLM Fill-in-the-Blank Correction",
+      "type": "OPAL, Carnegie Mellon University, Advised by Dr. Gauri Joshi",
+      "guide": {
+        "name": "Dr. Ranjitha Prasad",
+        "link": "https://sites.google.com/site/ranjithap/home?authuser=0"
+      },
+      "highlights": [
+        "Exploring adaptive LLM text infilling to correct errors without full regeneration, leveraging bidirectional context for more robust reasoning.",
+        "Research focus on improving inference efficiency and structured generation."
+      ]
+    },
     {
       "time_period": "Sept 2022 – May 2023",
-      "name": "Federated Learning with unannotated data",
-      "position": "B.Tech. Thesis",
-      "startDate": "2022-09-01",
-      "endDate": "2023-05-01",
+      "title": "Federated Learning with unannotated data",
+      "type": "B.Tech. Thesis",
       "guide": {
         "name": "Dr. Ranjitha Prasad",
         "link": "https://sites.google.com/site/ranjithap/home?authuser=0"
@@ -93,10 +103,9 @@
       ]
     },
     {
-      "name": "Vehicular Planning using Deep Reinforcement Learning",
-      "position": "Independent Project",
-      "startDate": "2022-01-01",
-      "endDate": "2022-05-01",
+      "time_period": "Jan 2022 - May 2022",
+      "title": "Vehicular Planning using Deep Reinforcement Learning",
+      "type": "Wireless Systems Lab, IIIT-Delhi",
       "guide": [
         {
           "name": "Dr. Sanjit Kaul",
@@ -108,15 +117,14 @@
         }
       ],
       "highlights": [
-        "Worked on optimizing Autonomous Agent Vehicle communication for local and extended view under bandwidth constraints using Deep Reinforcement Learning methods.",
-        "Surveyed literature and designed an architecture for multi-modal learning giving multiple outputs. Curated a reward system for efficient learning."
+        "Developed a multi-modal deep RL architecture using actor-critic methods, ingesting both local and extended roadside views to optimize vehicular decision-making.",
+        "Designed dual-output policy network to jointly select planner actions (acceleration, lane change) and query targets in extended view, reducing bandwidth usage and action space by 90%."
       ]
     },
     {
-      "name": "Plug-and-Play Platform for COVID-19 Resource Allocation",
-      "position": "Independent Project",
-      "startDate": "2022-08-01",
-      "endDate": "2022-12-01",
+      "time_period": "Aug 2022 – Dec 2022",
+      "title": "Plug-and-Play Platform for COVID-19 Resource Allocation",
+      "type": "TavLab, IIIT-Delhi",
       "guide": {
         "name": "Dr. Tavpritesh Sethi",
         "link": "https://www.iiitd.ac.in/tavpritesh"
@@ -128,10 +136,9 @@
       ]
     },
     {
-      "name": "SeekSuspect",
-      "position": "Research Project",
-      "startDate": "2021-01-01",
-      "endDate": "2022-05-02",
+      "time_period": "Jan 2021 – May 2021",
+      "title": "SeekSuspect",
+      "type": "Research Project",
       "link": "https://dl.acm.org/doi/abs/10.1145/3444685.3446252",
       "organization": "MIDAS, IIIT Delhi",
       "guide": {
@@ -145,67 +152,114 @@
       ]
     }
   ],
-  "education": [{
-    "institution": "Indraprastha Institute of Information and Technology Delhi (IIITD)",
-    "url": "https://iiitd.ac.in",
-    "area": "Computer Science and Applied Mathematics",
-    "studyType": "Bachelor",
-    "startDate": "2019-08-01",
-    "endDate": "2023-05-01",
-    "score": "8.82",
-    "courses": [
-      "Deep Learning",
-      "Artificial Intelligence",
-      "Reinforcement Learning",
-      "Data Mining",
-      "Algorithm Design and Analysis"
-    ]
-  }],
+  "education": [
+    {
+      "institution": "Carnegie Mellon University, School of Computer Science",
+      "url": "https://www.cmu.edu/",
+      "area": "Intelligent Information Systems",
+      "studyType": "Master of Science",
+      "startDate": "2025-08-01",
+      "endDate": "2026-12-01",
+      "score": "",
+      "courses": [
+        "Ongoing research at OPAL, advised by Dr Gauri Joshi, in efficient inference methods.",
+        "Deep Learning Systems",
+        "Machine Learning",
+        "Advanced Natural Language Processing"
+      ]
+    },
+    {
+      "institution": "Indraprastha Institute of Information and Technology Delhi (IIITD)",
+      "url": "https://iiitd.ac.in",
+      "area": "Computer Science and Applied Mathematics",
+      "studyType": "Bachelor of Technology",
+      "startDate": "2019-08-01",
+      "endDate": "2023-05-01",
+      "score": "8.82",
+      "courses": [
+        "Algorithm Design and Analysis",
+        "Deep Learning",
+        "Reinforcement Learning",
+        "Artificial Intelligence",
+        "Data Mining",
+        "Teaching Assistant - Computer Organization",
+        "Teaching Assistant - Introduction to Programming"
+      ]
+    }
+  ],
   "achievements": [
-      {
-        "title": "Women Techmakers Engineering Fellow Scholarship",
-        "organization": "Google, Talentsprint",
-        "link": "https://we.talentsprint.com/#successStories",
-        "period": "March 2020 - April 2022",
-        "highlights": [
-          "Selected among 120 scholars from over 15,000 applicants across India to receive a USD 2,400 scholarship.",
-          "Participated in coding bootcamps focusing on coding practices, design thinking, and hands-on projects as a freshman."
-        ]
-      },
-      {
-        "title": "AI/ML Head",
-        "organization": "Google Developer Student Circle, IIIT Delhi",
-        "period": "Oct 2021 - Sept 2022",
-        "highlights": [
-          "Organized workshops on machine learning for peers in IIIT Delhi.",
-          "Created and actively engaged in a telegram forum to foster learning and discussion in machine learning."
-        ]
-      },
-      {
-        "title": "Contributor at Leadership Connection Pillar",
-        "organization": "Technical Women at Microsoft",
-        "period": "Aug 2024 - Current",
-        "highlights": [
-          "Responsible for conducting and hosting AMAs with senior leaders at Microsoft for the TWaM community."
-        ]
-      }
-    ],
-  "publications": [{
-    "name": "Importance Sampling Based Federated Unsupervised Representation Learning",
-    "publisher": "IEEE",
-    "releaseDate": "2024-03-01",
-    "url": ["https://ieeexplore.ieee.org/document/10447119","https://neurips.cc/virtual/2024/108960"],
-    "summary": "Published work on a novel FL algorithm for unsupervised and personalized representation learning."
-  }],
-  "skills": [{
-    "name": "Web Development",
-    "level": "Master",
-    "keywords": [
-      "API Development",
-      "DevOps",
-      "CI/CD",
-      "Java",
-      "Python"
-    ]
-  }]
+    {
+      "title": "Women Techmakers Engineering Fellow Scholarship",
+      "organization": "Google, Talentsprint",
+      "link": "https://we.talentsprint.com/#successStories",
+      "period": "March 2020 - April 2022",
+      "highlights": [
+        "Selected among 120 scholars from over 15,000 applicants across India to receive a USD 2,400 scholarship.",
+        "Participated in coding bootcamps focusing on coding practices, design thinking, and hands-on projects as a freshman."
+      ]
+    },
+    {
+      "title": "AI/ML Head",
+      "organization": "Google Developer Student Circle, IIIT Delhi",
+      "period": "Oct 2021 - Sept 2022",
+      "highlights": [
+        "Organized workshops on machine learning for peers in IIIT Delhi.",
+        "Mentored 200+ peers and conducted 5+ ML workshops; created a Telegram community to foster collaborative learning."
+      ]
+    },
+    {
+      "title": "Contributor at Leadership Connection Pillar",
+      "organization": "Technical Women at Microsoft",
+      "period": "Aug 2024 - Current",
+      "highlights": [
+        "Responsible for conducting and hosting AMAs with senior leaders at Microsoft for the TWaM community."
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Languages & Frameworks",
+      "level": "Master",
+      "keywords": [
+        "Python",
+        "C",
+        "C++",
+        "C#",
+        "Java",
+        "Go",
+        "SQL",
+        "Perl",
+        "Bash/Shell Scripting",
+        "PyTorch",
+        "OpenCV",
+        "React"
+      ]
+    },
+    {
+      "name": "Tools & Platforms",
+      "level": "Master",
+      "keywords": [
+        "Linux",
+        "x86",
+        "ARM CPU/GPU",
+        "CUDA",
+        "OpenCL",
+        ".NET",
+        "Android Studio",
+        "Apache Spark",
+        "Kafka",
+        "Power BI"
+      ]
+    },
+    {
+      "name": "Cloud & Infrastructure",
+      "level": "Master",
+      "keywords": [
+        "Azure (DevOps, Synapse, Data Explorer, Service Fabric Cluster)",
+        "AWS",
+        "Docker/Containers",
+        "Kubernetes"
+      ]
+    }
+  ]
 }
