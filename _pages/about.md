@@ -9,16 +9,16 @@ profile:
   align: right
   image: prachi_cmu.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>MS NLP at Carnegie Mellon (LTI, SCS) </p>
 
 news: true # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-Hi! I’m a researcher and software engineer passionate about Federated Learning (FL), Large Language Models (LLMs), and efficient inference systems. I’m pursuing an MS in Intelligent Information Systems at Carnegie Mellon University (Dec 2026), conducting research at OPAL with Dr. Gauri Joshi on adaptive LLM text infilling and efficient inference methods. My journey began at IIIT Delhi, where I worked on reinforcement learning for vehicular planning and co-authored an FL algorithm published at ICASSP 2024 and presented at NeurIPS WiML.
+I'm a graduate student in the Language Technologies Institute at Carnegie Mellon University, where I'm exploring the frontiers of natural language processing and machine learning systems. Before joining CMU, I spent time at Microsoft building scalable backend systems as a software engineer. I completed my undergraduate studies at IIIT Delhi in 2023, earning a degree in Computer Science and Applied Mathematics.
 
-At Microsoft, I honed my skills in building large-scale systems through Teams Graph APIs, complementing my research with experience in scalable infrastructure for ML applications.
+My research centers on machine learning and natural language processing, particularly in areas of explainability and optimization. I'm drawn to questions around efficient inference, interpretability in sequence models, reinforcement learning, and foundation models—essentially, understanding how to make powerful AI systems both effective and understandable.
 
-Beyond work, I mentor aspiring women in tech, advocate for diversity in STEM, and lead initiatives to make AI/ML education more accessible. With a strong foundation in research and engineering, I aim to create impactful solutions at the intersection of systems and machine intelligence.
+During my time at IIIT Delhi, I had the opportunity to work with Prof. Ranjeetha Prasad on federated learning research. Together, we developed an algorithm that enables federated learning systems to better utilize unannotated data, which was published at ICASSP 2024. Currently at CMU, I'm collaborating with Prof. Gauri Joshi on optimizing inference for large language models. Our work focuses on developing techniques to make LLM inference more efficient without sacrificing performance, addressing the growing computational demands of deploying these models at scale.
+
+When I'm not immersed in research, you'll likely find me on a court or field—I'm an avid player of badminton, table tennis, and lawn tennis. I also enjoy singing and occasionally pick up a pencil to sketch.
